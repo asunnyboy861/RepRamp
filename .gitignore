@@ -1,5 +1,6 @@
 .env
 keytext*.md
+keytext_inventory*.md
 COMPETITOR_REPORT.md
 app_audit*.md
 GLMProxySecret.txt
