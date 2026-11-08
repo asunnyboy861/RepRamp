@@ -1,0 +1,14 @@
+.env
+keytext*.md
+COMPETITOR_REPORT.md
+app_audit*.md
+GLMProxySecret.txt
+Secrets.plist
+*.p8
+*.pem
+*.mobileprovision
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.DS_Store
