@@ -19,9 +19,6 @@ struct RepRampApp: App {
                 fatalError("ModelContainer failed. Primary: \(primaryError) | Memory: \(error)")
             }
         }
-        if !primaryError.isEmpty {
-            print("RepRamp container fallback: \(primaryError)")
-        }
         let context = ModelContext(container)
         ExerciseRepository.seedIfNeeded(context: context)
         let progressCount = (try? context.fetchCount(FetchDescriptor<UserProgress>())) ?? 0
