@@ -29,7 +29,7 @@ targets:
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_CFBundleDisplayName: RepRamp
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
-        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_NSHealthShareUsageDescription: "RepRamp reads your sleep, HRV, resting heart rate and body weight to adjust today's training intensity. Your health data stays on your device."
         INFOPLIST_KEY_NSHealthUpdateUsageDescription: "RepRamp saves completed workouts to Apple Health so your activity rings stay accurate."
         INFOPLIST_KEY_NSCameraUsageDescription: "RepRamp uses the camera only when you start a Body Scan. Photos are analyzed in memory and never stored."
